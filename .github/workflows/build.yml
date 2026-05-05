@@ -10,7 +10,7 @@ jobs:
    - name: checkout 
      uses: actions/checkout@v4
    - name: install docker
-     uses: docker/setup-buildx-actions@v2
+     uses: docker/setup-buildx-actions@v4
    - name: install java and maven
      uses: actions/setup-java@v4
      with:
